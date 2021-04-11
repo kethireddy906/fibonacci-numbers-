@@ -1,0 +1,14 @@
+a=0
+b=1
+n=int(input("Enter no.of fibonacci to be generated:"))
+if n<=0:
+ Print("Not possible")
+elif n==1:
+ Print(a) 
+elif n>=2:
+ Print ("{},{}. format (a,b),end=' ')
+for i in range (2,n):
+c=a+b
+ Print(",{}".format (c),end=')
+ a=b
+ b=c
